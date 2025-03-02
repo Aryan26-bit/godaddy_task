@@ -1,0 +1,44 @@
+.repo-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #caf0f8;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.repo-details h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #24292e;
+}
+
+.repo-details p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #586069;
+}
+
+.repo-details a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repo-details a:hover {
+  text-decoration: underline;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
