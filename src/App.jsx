@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import RepoList from "./components/RepoList/RepoList.jsx";
-import RepoDetails from "./components/RepoDetails/RepoDetails.jsx"
+import RepoList from "./components/RepoList.jsx";
+import RepoDetails from "./components/RepoDetails.jsx";
 
 function App() {
   return (

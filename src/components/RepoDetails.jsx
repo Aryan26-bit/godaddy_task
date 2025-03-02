@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import "./RepoDetails.css";
+import "./../styles/RepoDetails.css";
 
 const RepoDetails = () => {
   const { repoName } = useParams();
@@ -37,7 +37,7 @@ const RepoDetails = () => {
       <p>{repo.description}</p>
       <p>
         <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-          View Repo
+        Repo Link
         </a>
       </p>
       <p>Language: {repo.language}</p>

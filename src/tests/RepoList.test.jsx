@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import RepoList from "../components/RepoList/RepoList";
+import RepoList from "../components/RepoList";
 import axios from "axios";
 import "@testing-library/jest-dom";
 
